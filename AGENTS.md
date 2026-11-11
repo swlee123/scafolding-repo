@@ -47,6 +47,7 @@ Full detail in [docs/file-structure.md](docs/file-structure.md).
 
 ## 6. Workflow
 - For multi-step work, track progress with a todo/task list; update it as you go, not in a batch at the end.
+- When starting a new feature or architectural change, produce a diagram — architecture, sequence, or user-flow, whichever best clarifies the change — before or alongside implementation. Default to Mermaid, saved under `docs/diagrams/`. See [docs/diagramming.md](docs/diagramming.md).
 - Plan → implement → verify. Run the project's actual test/lint/build commands before calling work done; don't just claim success.
 - For UI changes, actually exercise the feature (run it, click through it) before reporting completion.
 - Give brief progress updates at key moments (found something, changed direction, hit a blocker) — don't narrate step by step, and don't go silent on long tasks.

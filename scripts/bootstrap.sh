@@ -21,6 +21,7 @@ FILES=(
   "docs/guardrails.md"
   "docs/coding-conventions.md"
   "docs/file-structure.md"
+  "docs/diagramming.md"
 )
 
 for rel in "${FILES[@]}"; do
