@@ -8,7 +8,8 @@ Every new repo used to mean re-explaining the same conventions to whichever agen
 - **`AGENTS.md`** — the canonical rules. Read first by Codex, Cursor, Copilot, Windsurf, Amp, and others that follow the [AGENTS.md convention](https://agents.md).
 - **`CLAUDE.md`** — thin wrapper that imports `AGENTS.md` (`@AGENTS.md`) plus Claude Code-specific notes.
 - **`.github/copilot-instructions.md`** — thin pointer back to `AGENTS.md` for GitHub Copilot.
-- **`docs/`** — the expanded detail behind each summary in `AGENTS.md` (guardrails, coding conventions, file structure, diagramming).
+- **`docs/`** — the expanded detail behind each summary in `AGENTS.md` (guardrails, coding conventions, file structure, diagramming, decisions).
+- **`spec/`** — dated architecture/design decision records (ADRs): what was decided, when, and the data behind it. Copy `spec/template.md` for each new one.
 - **`scripts/bootstrap.sh`** — copies all of the above into a new or existing repo.
 
 ## Using this for a new project

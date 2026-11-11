@@ -13,7 +13,12 @@ Expanded detail behind `AGENTS.md` §5. Target layout for a new repo bootstrappe
 ├── docs/
 │   ├── guardrails.md
 │   ├── coding-conventions.md
-│   └── file-structure.md
+│   ├── file-structure.md
+│   ├── diagramming.md
+│   └── decisions.md
+├── spec/                           # dated architecture/design decisions (ADRs) — see docs/decisions.md
+│   ├── template.md
+│   └── 0001-*.md
 ├── scripts/
 │   └── bootstrap.sh
 ├── src/                            # application code
