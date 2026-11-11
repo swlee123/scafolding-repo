@@ -47,6 +47,7 @@ Full detail in [docs/file-structure.md](docs/file-structure.md).
 
 ## 6. Workflow
 - For multi-step work, track progress with a todo/task list; update it as you go, not in a batch at the end.
+- Before starting a significant new feature, write a PR/FAQ (Amazon's Working Backwards method) in `prfaq/` — the customer problem and solution, in plain language, before any implementation. See [docs/working-backwards.md](docs/working-backwards.md).
 - When starting a new feature or architectural change, produce a diagram — architecture, sequence, or user-flow, whichever best clarifies the change — before or alongside implementation. Default to Mermaid, saved under `docs/diagrams/`. See [docs/diagramming.md](docs/diagramming.md).
 - When making a significant architecture/design decision, record it as a dated ADR in `spec/` — what was decided, when, and the data points behind it — so the next person or agent knows why things are the way they are. See [docs/decisions.md](docs/decisions.md).
 - Plan → implement → verify. Run the project's actual test/lint/build commands before calling work done; don't just claim success.
