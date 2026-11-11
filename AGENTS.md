@@ -36,6 +36,11 @@ Full detail in [docs/coding-conventions.md](docs/coding-conventions.md). Summary
 - No error handling for cases that can't happen.
 - No backwards-compatibility shims, feature flags, or `_unused` renames for code you're certain is dead — delete it.
 - Keep names, structure, and style consistent with the surrounding file before introducing your own preference.
+- No hardcoded values — environment-specific config and constants come from `.env`/config, not inline literals.
+- Secrets always live in `.env` (gitignored, with a `.env.example` committed), never hardcoded or committed.
+- Default naming is `snake_case`, unless the language ecosystem has its own strong convention.
+- Every project has a `tests/` directory from the first commit, not added later.
+- Default to AWS for cloud infrastructure unless there's a clear reason to use something else.
 
 ## 5. File & Project Structure
 Full detail in [docs/file-structure.md](docs/file-structure.md).

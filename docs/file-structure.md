@@ -17,7 +17,8 @@ Expanded detail behind `AGENTS.md` §5. Target layout for a new repo bootstrappe
 ├── scripts/
 │   └── bootstrap.sh
 ├── src/                            # application code
-└── tests/                          # test suite, mirrors src/ structure
+├── tests/                          # test suite, mirrors src/ — mandatory from the first commit
+└── .env.example                    # placeholder keys; real .env is gitignored
 ```
 
 ## Monorepos / subprojects
