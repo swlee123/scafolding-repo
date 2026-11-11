@@ -16,8 +16,8 @@ Expanded detail behind `AGENTS.md` §5. Target layout for a new repo bootstrappe
 │   ├── file-structure.md
 │   ├── diagramming.md
 │   ├── decisions.md
-│   └── working-backwards.md
-├── prfaq/                          # Working Backwards PR/FAQ docs — see docs/working-backwards.md
+│   └── requirements.md
+├── requirements/                   # working-backwards requirement docs — see docs/requirements.md
 │   ├── template.md
 │   └── short-title.md
 ├── spec/                           # dated architecture/design decisions (ADRs) — see docs/decisions.md
